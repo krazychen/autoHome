@@ -1,0 +1,1378 @@
+{
+  "北京": [
+    {
+      "cn": "北京",
+      "link": "//www.autohome.com.cn/beijing/cheshi/"
+    },
+    {
+      "cn": "天津",
+      "link": "//www.autohome.com.cn/tianjin/cheshi/"
+    }
+  ],
+  "河北": [
+    {
+      "cn": "石家庄",
+      "link": "//www.autohome.com.cn/shijiazhuang/cheshi/"
+    },
+    {
+      "cn": "唐山",
+      "link": "//www.autohome.com.cn/tangshan/cheshi/"
+    },
+    {
+      "cn": "邯郸",
+      "link": "//www.autohome.com.cn/handan/cheshi/"
+    },
+    {
+      "cn": "邢台",
+      "link": "//www.autohome.com.cn/xingtai/cheshi/"
+    },
+    {
+      "cn": "保定",
+      "link": "//www.autohome.com.cn/baoding/cheshi/"
+    },
+    {
+      "cn": "沧州",
+      "link": "//www.autohome.com.cn/cangzhou/cheshi/"
+    },
+    {
+      "cn": "秦皇岛",
+      "link": "//www.autohome.com.cn/qinhuangdao/cheshi/"
+    },
+    {
+      "cn": "张家口",
+      "link": "//www.autohome.com.cn/zhangjiakou/cheshi/"
+    },
+    {
+      "cn": "承德",
+      "link": "//www.autohome.com.cn/chengde/cheshi/"
+    },
+    {
+      "cn": "廊坊",
+      "link": "//www.autohome.com.cn/langfang/cheshi/"
+    },
+    {
+      "cn": "衡水",
+      "link": "//www.autohome.com.cn/hengshui/cheshi/"
+    }
+  ],
+  "内蒙古": [
+    {
+      "cn": "呼和浩特",
+      "link": "//www.autohome.com.cn/huhehaote/cheshi/"
+    },
+    {
+      "cn": "乌海",
+      "link": "//www.autohome.com.cn/wuhai/cheshi/"
+    },
+    {
+      "cn": "鄂尔多斯",
+      "link": "//www.autohome.com.cn/eerduosi/cheshi/"
+    },
+    {
+      "cn": "包头",
+      "link": "//www.autohome.com.cn/baotou/cheshi/"
+    },
+    {
+      "cn": "赤峰",
+      "link": "//www.autohome.com.cn/chifeng/cheshi/"
+    },
+    {
+      "cn": "通辽",
+      "link": "//www.autohome.com.cn/tongliao/cheshi/"
+    },
+    {
+      "cn": "呼伦贝尔",
+      "link": "//www.autohome.com.cn/hulunbeier/cheshi/"
+    },
+    {
+      "cn": "巴彦淖尔",
+      "link": "//www.autohome.com.cn/bayannaoer/cheshi/"
+    },
+    {
+      "cn": "锡林郭勒盟",
+      "link": "//www.autohome.com.cn/xilinguolemeng/cheshi/"
+    },
+    {
+      "cn": "乌兰察布",
+      "link": "//www.autohome.com.cn/wulanchabu/cheshi/"
+    },
+    {
+      "cn": "兴安盟",
+      "link": "//www.autohome.com.cn/xinganmeng/cheshi/"
+    }
+  ],
+  "山东": [
+    {
+      "cn": "济南",
+      "link": "//www.autohome.com.cn/jinan/cheshi/"
+    },
+    {
+      "cn": "青岛",
+      "link": "//www.autohome.com.cn/qingdao/cheshi/"
+    },
+    {
+      "cn": "淄博",
+      "link": "//www.autohome.com.cn/zibo/cheshi/"
+    },
+    {
+      "cn": "烟台",
+      "link": "//www.autohome.com.cn/yantai/cheshi/"
+    },
+    {
+      "cn": "潍坊",
+      "link": "//www.autohome.com.cn/weifang/cheshi/"
+    },
+    {
+      "cn": "济宁",
+      "link": "//www.autohome.com.cn/jining/cheshi/"
+    },
+    {
+      "cn": "泰安",
+      "link": "//www.autohome.com.cn/taian/cheshi/"
+    },
+    {
+      "cn": "临沂",
+      "link": "//www.autohome.com.cn/linyi/cheshi/"
+    },
+    {
+      "cn": "滨州",
+      "link": "//www.autohome.com.cn/binzhou/cheshi/"
+    },
+    {
+      "cn": "枣庄",
+      "link": "//www.autohome.com.cn/zaozhuang/cheshi/"
+    },
+    {
+      "cn": "东营",
+      "link": "//www.autohome.com.cn/dongying/cheshi/"
+    },
+    {
+      "cn": "威海",
+      "link": "//www.autohome.com.cn/weihai/cheshi/"
+    },
+    {
+      "cn": "日照",
+      "link": "//www.autohome.com.cn/rizhao/cheshi/"
+    },
+    {
+      "cn": "莱芜",
+      "link": "//www.autohome.com.cn/laiwu/cheshi/"
+    },
+    {
+      "cn": "德州",
+      "link": "//www.autohome.com.cn/dezhou/cheshi/"
+    },
+    {
+      "cn": "聊城",
+      "link": "//www.autohome.com.cn/liaocheng/cheshi/"
+    },
+    {
+      "cn": "菏泽",
+      "link": "//www.autohome.com.cn/heze/cheshi/"
+    }
+  ],
+  "山西": [
+    {
+      "cn": "太原",
+      "link": "//www.autohome.com.cn/taiyuan/cheshi/"
+    },
+    {
+      "cn": "大同",
+      "link": "//www.autohome.com.cn/datong/cheshi/"
+    },
+    {
+      "cn": "长治",
+      "link": "//www.autohome.com.cn/changzhi/cheshi/"
+    },
+    {
+      "cn": "晋城",
+      "link": "//www.autohome.com.cn/jincheng/cheshi/"
+    },
+    {
+      "cn": "晋中",
+      "link": "//www.autohome.com.cn/jinzhong/cheshi/"
+    },
+    {
+      "cn": "运城",
+      "link": "//www.autohome.com.cn/yuncheng/cheshi/"
+    },
+    {
+      "cn": "临汾",
+      "link": "//www.autohome.com.cn/linfen/cheshi/"
+    },
+    {
+      "cn": "吕梁",
+      "link": "//www.autohome.com.cn/lvliang/cheshi/"
+    },
+    {
+      "cn": "阳泉",
+      "link": "//www.autohome.com.cn/yangquan/cheshi/"
+    },
+    {
+      "cn": "朔州",
+      "link": "//www.autohome.com.cn/shuozhou/cheshi/"
+    },
+    {
+      "cn": "忻州",
+      "link": "//www.autohome.com.cn/xinzhou/cheshi/"
+    }
+  ],
+  "上海": [
+    {
+      "cn": "上海",
+      "link": "//www.autohome.com.cn/shanghai/cheshi/"
+    }
+  ],
+  "安徽": [
+    {
+      "cn": "合肥",
+      "link": "//www.autohome.com.cn/hefei/cheshi/"
+    },
+    {
+      "cn": "芜湖",
+      "link": "//www.autohome.com.cn/wuhu/cheshi/"
+    },
+    {
+      "cn": "蚌埠",
+      "link": "//www.autohome.com.cn/bangbu/cheshi/"
+    },
+    {
+      "cn": "淮南",
+      "link": "//www.autohome.com.cn/huainan/cheshi/"
+    },
+    {
+      "cn": "马鞍山",
+      "link": "//www.autohome.com.cn/maanshan/cheshi/"
+    },
+    {
+      "cn": "淮北",
+      "link": "//www.autohome.com.cn/huaibei/cheshi/"
+    },
+    {
+      "cn": "铜陵",
+      "link": "//www.autohome.com.cn/tongling/cheshi/"
+    },
+    {
+      "cn": "安庆",
+      "link": "//www.autohome.com.cn/anqing/cheshi/"
+    },
+    {
+      "cn": "黄山",
+      "link": "//www.autohome.com.cn/huangshan/cheshi/"
+    },
+    {
+      "cn": "滁州",
+      "link": "//www.autohome.com.cn/chuzhou/cheshi/"
+    },
+    {
+      "cn": "阜阳",
+      "link": "//www.autohome.com.cn/fu_yang/cheshi/"
+    },
+    {
+      "cn": "宿州",
+      "link": "//www.autohome.com.cn/su_zhou/cheshi/"
+    },
+    {
+      "cn": "六安",
+      "link": "//www.autohome.com.cn/liuan/cheshi/"
+    },
+    {
+      "cn": "亳州",
+      "link": "//www.autohome.com.cn/bozhou/cheshi/"
+    },
+    {
+      "cn": "池州",
+      "link": "//www.autohome.com.cn/chizhou/cheshi/"
+    },
+    {
+      "cn": "宣城",
+      "link": "//www.autohome.com.cn/xuancheng/cheshi/"
+    }
+  ],
+  "江苏": [
+    {
+      "cn": "南京",
+      "link": "//www.autohome.com.cn/nanjing/cheshi/"
+    },
+    {
+      "cn": "无锡",
+      "link": "//www.autohome.com.cn/wuxi/cheshi/"
+    },
+    {
+      "cn": "徐州",
+      "link": "//www.autohome.com.cn/xuzhou/cheshi/"
+    },
+    {
+      "cn": "常州",
+      "link": "//www.autohome.com.cn/changzhou/cheshi/"
+    },
+    {
+      "cn": "苏州",
+      "link": "//www.autohome.com.cn/suzhou/cheshi/"
+    },
+    {
+      "cn": "南通",
+      "link": "//www.autohome.com.cn/nantong/cheshi/"
+    },
+    {
+      "cn": "盐城",
+      "link": "//www.autohome.com.cn/yancheng/cheshi/"
+    },
+    {
+      "cn": "扬州",
+      "link": "//www.autohome.com.cn/yangzhou/cheshi/"
+    },
+    {
+      "cn": "泰州",
+      "link": "//www.autohome.com.cn/tai_zhou/cheshi/"
+    },
+    {
+      "cn": "连云港",
+      "link": "//www.autohome.com.cn/lianyungang/cheshi/"
+    },
+    {
+      "cn": "淮安",
+      "link": "//www.autohome.com.cn/huaian/cheshi/"
+    },
+    {
+      "cn": "镇江",
+      "link": "//www.autohome.com.cn/zhenjiang/cheshi/"
+    },
+    {
+      "cn": "宿迁",
+      "link": "//www.autohome.com.cn/suqian/cheshi/"
+    }
+  ],
+  "浙江": [
+    {
+      "cn": "杭州",
+      "link": "//www.autohome.com.cn/hangzhou/cheshi/"
+    },
+    {
+      "cn": "宁波",
+      "link": "//www.autohome.com.cn/ningbo/cheshi/"
+    },
+    {
+      "cn": "温州",
+      "link": "//www.autohome.com.cn/wenzhou/cheshi/"
+    },
+    {
+      "cn": "嘉兴",
+      "link": "//www.autohome.com.cn/jiaxing/cheshi/"
+    },
+    {
+      "cn": "绍兴",
+      "link": "//www.autohome.com.cn/shaoxing/cheshi/"
+    },
+    {
+      "cn": "金华",
+      "link": "//www.autohome.com.cn/jinhua/cheshi/"
+    },
+    {
+      "cn": "台州",
+      "link": "//www.autohome.com.cn/taizhou/cheshi/"
+    },
+    {
+      "cn": "湖州",
+      "link": "//www.autohome.com.cn/huzhou/cheshi/"
+    },
+    {
+      "cn": "衢州",
+      "link": "//www.autohome.com.cn/quzhou/cheshi/"
+    },
+    {
+      "cn": "丽水",
+      "link": "//www.autohome.com.cn/lishui/cheshi/"
+    },
+    {
+      "cn": "舟山",
+      "link": "//www.autohome.com.cn/zhoushan/cheshi/"
+    }
+  ],
+  "福建": [
+    {
+      "cn": "福州",
+      "link": "//www.autohome.com.cn/fuzhou/cheshi/"
+    },
+    {
+      "cn": "厦门",
+      "link": "//www.autohome.com.cn/xiamen/cheshi/"
+    },
+    {
+      "cn": "泉州",
+      "link": "//www.autohome.com.cn/quanzhou/cheshi/"
+    },
+    {
+      "cn": "莆田",
+      "link": "//www.autohome.com.cn/putian/cheshi/"
+    },
+    {
+      "cn": "三明",
+      "link": "//www.autohome.com.cn/sanming/cheshi/"
+    },
+    {
+      "cn": "漳州",
+      "link": "//www.autohome.com.cn/zhangzhou/cheshi/"
+    },
+    {
+      "cn": "南平",
+      "link": "//www.autohome.com.cn/nanping/cheshi/"
+    },
+    {
+      "cn": "龙岩",
+      "link": "//www.autohome.com.cn/longyan/cheshi/"
+    },
+    {
+      "cn": "宁德",
+      "link": "//www.autohome.com.cn/ningde/cheshi/"
+    }
+  ],
+  "广东": [
+    {
+      "cn": "广州",
+      "link": "//www.autohome.com.cn/guangzhou/cheshi/"
+    },
+    {
+      "cn": "深圳",
+      "link": "//www.autohome.com.cn/shenzhen/cheshi/"
+    },
+    {
+      "cn": "佛山",
+      "link": "//www.autohome.com.cn/foshan/cheshi/"
+    },
+    {
+      "cn": "惠州",
+      "link": "//www.autohome.com.cn/huizhou/cheshi/"
+    },
+    {
+      "cn": "东莞",
+      "link": "//www.autohome.com.cn/dongguan/cheshi/"
+    },
+    {
+      "cn": "中山",
+      "link": "//www.autohome.com.cn/zhongshan/cheshi/"
+    },
+    {
+      "cn": "韶关",
+      "link": "//www.autohome.com.cn/shaoguan/cheshi/"
+    },
+    {
+      "cn": "珠海",
+      "link": "//www.autohome.com.cn/zhuhai/cheshi/"
+    },
+    {
+      "cn": "汕头",
+      "link": "//www.autohome.com.cn/shantou/cheshi/"
+    },
+    {
+      "cn": "江门",
+      "link": "//www.autohome.com.cn/jiangmen/cheshi/"
+    },
+    {
+      "cn": "湛江",
+      "link": "//www.autohome.com.cn/zhanjiang/cheshi/"
+    },
+    {
+      "cn": "茂名",
+      "link": "//www.autohome.com.cn/maoming/cheshi/"
+    },
+    {
+      "cn": "肇庆",
+      "link": "//www.autohome.com.cn/zhaoqing/cheshi/"
+    },
+    {
+      "cn": "梅州",
+      "link": "//www.autohome.com.cn/meizhou/cheshi/"
+    },
+    {
+      "cn": "河源",
+      "link": "//www.autohome.com.cn/heyuan/cheshi/"
+    },
+    {
+      "cn": "清远",
+      "link": "//www.autohome.com.cn/qingyuan/cheshi/"
+    },
+    {
+      "cn": "潮州",
+      "link": "//www.autohome.com.cn/chaozhou/cheshi/"
+    },
+    {
+      "cn": "揭阳",
+      "link": "//www.autohome.com.cn/jieyang/cheshi/"
+    },
+    {
+      "cn": "汕尾",
+      "link": "//www.autohome.com.cn/shanwei/cheshi/"
+    },
+    {
+      "cn": "阳江",
+      "link": "//www.autohome.com.cn/yangjiang/cheshi/"
+    },
+    {
+      "cn": "云浮",
+      "link": "//www.autohome.com.cn/yunfu/cheshi/"
+    }
+  ],
+  "广西": [
+    {
+      "cn": "南宁",
+      "link": "//www.autohome.com.cn/nanning/cheshi/"
+    },
+    {
+      "cn": "柳州",
+      "link": "//www.autohome.com.cn/liuzhou/cheshi/"
+    },
+    {
+      "cn": "桂林",
+      "link": "//www.autohome.com.cn/guilin/cheshi/"
+    },
+    {
+      "cn": "贵港",
+      "link": "//www.autohome.com.cn/guigang/cheshi/"
+    },
+    {
+      "cn": "玉林",
+      "link": "//www.autohome.com.cn/yu_lin/cheshi/"
+    },
+    {
+      "cn": "百色",
+      "link": "//www.autohome.com.cn/baise/cheshi/"
+    },
+    {
+      "cn": "梧州",
+      "link": "//www.autohome.com.cn/wuzhou/cheshi/"
+    },
+    {
+      "cn": "北海",
+      "link": "//www.autohome.com.cn/beihai/cheshi/"
+    },
+    {
+      "cn": "防城港",
+      "link": "//www.autohome.com.cn/fangchenggang/cheshi/"
+    },
+    {
+      "cn": "钦州",
+      "link": "//www.autohome.com.cn/qinzhou/cheshi/"
+    },
+    {
+      "cn": "贺州",
+      "link": "//www.autohome.com.cn/hezhou/cheshi/"
+    },
+    {
+      "cn": "河池",
+      "link": "//www.autohome.com.cn/hechi/cheshi/"
+    },
+    {
+      "cn": "来宾",
+      "link": "//www.autohome.com.cn/laibin/cheshi/"
+    },
+    {
+      "cn": "崇左",
+      "link": "//www.autohome.com.cn/chongzuo/cheshi/"
+    }
+  ],
+  "海南": [
+    {
+      "cn": "海口",
+      "link": "//www.autohome.com.cn/haikou/cheshi/"
+    },
+    {
+      "cn": "三亚",
+      "link": "//www.autohome.com.cn/sanya/cheshi/"
+    },
+    {
+      "cn": "儋州",
+      "link": "//www.autohome.com.cn/danzhou/cheshi/"
+    },
+    {
+      "cn": "琼海",
+      "link": "//www.autohome.com.cn/qionghai/cheshi/"
+    }
+  ],
+  "江西": [
+    {
+      "cn": "南昌",
+      "link": "//www.autohome.com.cn/nanchang/cheshi/"
+    },
+    {
+      "cn": "赣州",
+      "link": "//www.autohome.com.cn/ganzhou/cheshi/"
+    },
+    {
+      "cn": "九江",
+      "link": "//www.autohome.com.cn/jiujiang/cheshi/"
+    },
+    {
+      "cn": "宜春",
+      "link": "//www.autohome.com.cn/yi_chun/cheshi/"
+    },
+    {
+      "cn": "上饶",
+      "link": "//www.autohome.com.cn/shangrao/cheshi/"
+    },
+    {
+      "cn": "景德镇",
+      "link": "//www.autohome.com.cn/jingdezhen/cheshi/"
+    },
+    {
+      "cn": "萍乡",
+      "link": "//www.autohome.com.cn/ping_xiang/cheshi/"
+    },
+    {
+      "cn": "新余",
+      "link": "//www.autohome.com.cn/xinyu/cheshi/"
+    },
+    {
+      "cn": "鹰潭",
+      "link": "//www.autohome.com.cn/yingtan/cheshi/"
+    },
+    {
+      "cn": "吉安",
+      "link": "//www.autohome.com.cn/jian/cheshi/"
+    },
+    {
+      "cn": "抚州",
+      "link": "//www.autohome.com.cn/fu_zhou/cheshi/"
+    }
+  ],
+  "河南": [
+    {
+      "cn": "郑州",
+      "link": "//www.autohome.com.cn/zhengzhou/cheshi/"
+    },
+    {
+      "cn": "洛阳",
+      "link": "//www.autohome.com.cn/luoyang/cheshi/"
+    },
+    {
+      "cn": "新乡",
+      "link": "//www.autohome.com.cn/xinxiang/cheshi/"
+    },
+    {
+      "cn": "开封",
+      "link": "//www.autohome.com.cn/kaifeng/cheshi/"
+    },
+    {
+      "cn": "平顶山",
+      "link": "//www.autohome.com.cn/pingdingshan/cheshi/"
+    },
+    {
+      "cn": "安阳",
+      "link": "//www.autohome.com.cn/anyang/cheshi/"
+    },
+    {
+      "cn": "焦作",
+      "link": "//www.autohome.com.cn/jiaozuo/cheshi/"
+    },
+    {
+      "cn": "濮阳",
+      "link": "//www.autohome.com.cn/puyang/cheshi/"
+    },
+    {
+      "cn": "许昌",
+      "link": "//www.autohome.com.cn/xuchang/cheshi/"
+    },
+    {
+      "cn": "漯河",
+      "link": "//www.autohome.com.cn/luohe/cheshi/"
+    },
+    {
+      "cn": "三门峡",
+      "link": "//www.autohome.com.cn/sanmenxia/cheshi/"
+    },
+    {
+      "cn": "南阳",
+      "link": "//www.autohome.com.cn/nanyang/cheshi/"
+    },
+    {
+      "cn": "商丘",
+      "link": "//www.autohome.com.cn/shangqiu/cheshi/"
+    },
+    {
+      "cn": "信阳",
+      "link": "//www.autohome.com.cn/xinyang/cheshi/"
+    },
+    {
+      "cn": "周口",
+      "link": "//www.autohome.com.cn/zhoukou/cheshi/"
+    },
+    {
+      "cn": "驻马店",
+      "link": "//www.autohome.com.cn/zhumadian/cheshi/"
+    },
+    {
+      "cn": "鹤壁",
+      "link": "//www.autohome.com.cn/hebi/cheshi/"
+    },
+    {
+      "cn": "济源",
+      "link": "//www.autohome.com.cn/jiyuan/cheshi/"
+    }
+  ],
+  "湖北": [
+    {
+      "cn": "武汉",
+      "link": "//www.autohome.com.cn/wuhan/cheshi/"
+    },
+    {
+      "cn": "黄石",
+      "link": "//www.autohome.com.cn/huangshi/cheshi/"
+    },
+    {
+      "cn": "十堰",
+      "link": "//www.autohome.com.cn/shiyan/cheshi/"
+    },
+    {
+      "cn": "宜昌",
+      "link": "//www.autohome.com.cn/yichang/cheshi/"
+    },
+    {
+      "cn": "襄阳",
+      "link": "//www.autohome.com.cn/xiangyang/cheshi/"
+    },
+    {
+      "cn": "孝感",
+      "link": "//www.autohome.com.cn/xiaogan/cheshi/"
+    },
+    {
+      "cn": "荆州",
+      "link": "//www.autohome.com.cn/jingzhou/cheshi/"
+    },
+    {
+      "cn": "恩施",
+      "link": "//www.autohome.com.cn/enshi/cheshi/"
+    },
+    {
+      "cn": "鄂州",
+      "link": "//www.autohome.com.cn/ezhou/cheshi/"
+    },
+    {
+      "cn": "荆门",
+      "link": "//www.autohome.com.cn/jingmen/cheshi/"
+    },
+    {
+      "cn": "黄冈",
+      "link": "//www.autohome.com.cn/huanggang/cheshi/"
+    },
+    {
+      "cn": "咸宁",
+      "link": "//www.autohome.com.cn/xianning/cheshi/"
+    },
+    {
+      "cn": "随州",
+      "link": "//www.autohome.com.cn/suizhou/cheshi/"
+    },
+    {
+      "cn": "仙桃",
+      "link": "//www.autohome.com.cn/xiantao/cheshi/"
+    },
+    {
+      "cn": "潜江",
+      "link": "//www.autohome.com.cn/qianjiang/cheshi/"
+    },
+    {
+      "cn": "天门",
+      "link": "//www.autohome.com.cn/tianmen/cheshi/"
+    }
+  ],
+  "湖南": [
+    {
+      "cn": "长沙",
+      "link": "//www.autohome.com.cn/changsha/cheshi/"
+    },
+    {
+      "cn": "株洲",
+      "link": "//www.autohome.com.cn/zhuzhou/cheshi/"
+    },
+    {
+      "cn": "湘潭",
+      "link": "//www.autohome.com.cn/xiangtan/cheshi/"
+    },
+    {
+      "cn": "衡阳",
+      "link": "//www.autohome.com.cn/hengyang/cheshi/"
+    },
+    {
+      "cn": "邵阳",
+      "link": "//www.autohome.com.cn/shaoyang/cheshi/"
+    },
+    {
+      "cn": "岳阳",
+      "link": "//www.autohome.com.cn/yueyang/cheshi/"
+    },
+    {
+      "cn": "常德",
+      "link": "//www.autohome.com.cn/changde/cheshi/"
+    },
+    {
+      "cn": "益阳",
+      "link": "//www.autohome.com.cn/yiyang/cheshi/"
+    },
+    {
+      "cn": "郴州",
+      "link": "//www.autohome.com.cn/chenzhou/cheshi/"
+    },
+    {
+      "cn": "怀化",
+      "link": "//www.autohome.com.cn/huaihua/cheshi/"
+    },
+    {
+      "cn": "娄底",
+      "link": "//www.autohome.com.cn/loudi/cheshi/"
+    },
+    {
+      "cn": "张家界",
+      "link": "//www.autohome.com.cn/zhangjiajie/cheshi/"
+    },
+    {
+      "cn": "永州",
+      "link": "//www.autohome.com.cn/yongzhou/cheshi/"
+    },
+    {
+      "cn": "湘西",
+      "link": "//www.autohome.com.cn/xiangxi/cheshi/"
+    }
+  ],
+  "黑龙江": [
+    {
+      "cn": "哈尔滨",
+      "link": "//www.autohome.com.cn/haerbin/cheshi/"
+    },
+    {
+      "cn": "齐齐哈尔",
+      "link": "//www.autohome.com.cn/qiqihaer/cheshi/"
+    },
+    {
+      "cn": "大庆",
+      "link": "//www.autohome.com.cn/daqing/cheshi/"
+    },
+    {
+      "cn": "伊春",
+      "link": "//www.autohome.com.cn/yichun/cheshi/"
+    },
+    {
+      "cn": "佳木斯",
+      "link": "//www.autohome.com.cn/jiamusi/cheshi/"
+    },
+    {
+      "cn": "鸡西",
+      "link": "//www.autohome.com.cn/jixi/cheshi/"
+    },
+    {
+      "cn": "鹤岗",
+      "link": "//www.autohome.com.cn/hegang/cheshi/"
+    },
+    {
+      "cn": "双鸭山",
+      "link": "//www.autohome.com.cn/shuangyashan/cheshi/"
+    },
+    {
+      "cn": "七台河",
+      "link": "//www.autohome.com.cn/qitaihe/cheshi/"
+    },
+    {
+      "cn": "牡丹江",
+      "link": "//www.autohome.com.cn/mudanjiang/cheshi/"
+    },
+    {
+      "cn": "黑河",
+      "link": "//www.autohome.com.cn/heihe/cheshi/"
+    },
+    {
+      "cn": "绥化",
+      "link": "//www.autohome.com.cn/suihua/cheshi/"
+    },
+    {
+      "cn": "大兴安岭",
+      "link": "//www.autohome.com.cn/daxinganling/cheshi/"
+    }
+  ],
+  "吉林": [
+    {
+      "cn": "长春",
+      "link": "//www.autohome.com.cn/changchun/cheshi/"
+    },
+    {
+      "cn": "吉林",
+      "link": "//www.autohome.com.cn/jilinshi/cheshi/"
+    },
+    {
+      "cn": "松原",
+      "link": "//www.autohome.com.cn/songyuan/cheshi/"
+    },
+    {
+      "cn": "四平",
+      "link": "//www.autohome.com.cn/siping/cheshi/"
+    },
+    {
+      "cn": "辽源",
+      "link": "//www.autohome.com.cn/liaoyuan/cheshi/"
+    },
+    {
+      "cn": "通化",
+      "link": "//www.autohome.com.cn/tonghua/cheshi/"
+    },
+    {
+      "cn": "白山",
+      "link": "//www.autohome.com.cn/baishan/cheshi/"
+    },
+    {
+      "cn": "白城",
+      "link": "//www.autohome.com.cn/baicheng/cheshi/"
+    },
+    {
+      "cn": "延边",
+      "link": "//www.autohome.com.cn/yanbian/cheshi/"
+    }
+  ],
+  "辽宁": [
+    {
+      "cn": "沈阳",
+      "link": "//www.autohome.com.cn/shenyang/cheshi/"
+    },
+    {
+      "cn": "大连",
+      "link": "//www.autohome.com.cn/dalian/cheshi/"
+    },
+    {
+      "cn": "鞍山",
+      "link": "//www.autohome.com.cn/anshan/cheshi/"
+    },
+    {
+      "cn": "锦州",
+      "link": "//www.autohome.com.cn/jinzhou/cheshi/"
+    },
+    {
+      "cn": "营口",
+      "link": "//www.autohome.com.cn/yingkou/cheshi/"
+    },
+    {
+      "cn": "阜新",
+      "link": "//www.autohome.com.cn/fuxin/cheshi/"
+    },
+    {
+      "cn": "盘锦",
+      "link": "//www.autohome.com.cn/panjin/cheshi/"
+    },
+    {
+      "cn": "朝阳",
+      "link": "//www.autohome.com.cn/chaoyang/cheshi/"
+    },
+    {
+      "cn": "葫芦岛",
+      "link": "//www.autohome.com.cn/huludao/cheshi/"
+    },
+    {
+      "cn": "抚顺",
+      "link": "//www.autohome.com.cn/fushun/cheshi/"
+    },
+    {
+      "cn": "本溪",
+      "link": "//www.autohome.com.cn/benxi/cheshi/"
+    },
+    {
+      "cn": "丹东",
+      "link": "//www.autohome.com.cn/dandong/cheshi/"
+    },
+    {
+      "cn": "辽阳",
+      "link": "//www.autohome.com.cn/liaoyang/cheshi/"
+    },
+    {
+      "cn": "铁岭",
+      "link": "//www.autohome.com.cn/tieling/cheshi/"
+    }
+  ],
+  "重庆": [
+    {
+      "cn": "重庆",
+      "link": "//www.autohome.com.cn/chongqing/cheshi/"
+    }
+  ],
+  "贵州": [
+    {
+      "cn": "贵阳",
+      "link": "//www.autohome.com.cn/guiyang/cheshi/"
+    },
+    {
+      "cn": "六盘水",
+      "link": "//www.autohome.com.cn/liupanshui/cheshi/"
+    },
+    {
+      "cn": "遵义",
+      "link": "//www.autohome.com.cn/zunyi/cheshi/"
+    },
+    {
+      "cn": "安顺",
+      "link": "//www.autohome.com.cn/anshun/cheshi/"
+    },
+    {
+      "cn": "毕节",
+      "link": "//www.autohome.com.cn/bijie/cheshi/"
+    },
+    {
+      "cn": "铜仁",
+      "link": "//www.autohome.com.cn/tongren/cheshi/"
+    },
+    {
+      "cn": "凯里",
+      "link": "//www.autohome.com.cn/kaili/cheshi/"
+    },
+    {
+      "cn": "都匀市",
+      "link": "//www.autohome.com.cn/duyunshi/cheshi/"
+    },
+    {
+      "cn": "兴义市",
+      "link": "//www.autohome.com.cn/xingyishi/cheshi/"
+    }
+  ],
+  "四川": [
+    {
+      "cn": "成都",
+      "link": "//www.autohome.com.cn/chengdu/cheshi/"
+    },
+    {
+      "cn": "自贡",
+      "link": "//www.autohome.com.cn/zigong/cheshi/"
+    },
+    {
+      "cn": "泸州",
+      "link": "//www.autohome.com.cn/luzhou/cheshi/"
+    },
+    {
+      "cn": "德阳",
+      "link": "//www.autohome.com.cn/deyang/cheshi/"
+    },
+    {
+      "cn": "绵阳",
+      "link": "//www.autohome.com.cn/mianyang/cheshi/"
+    },
+    {
+      "cn": "广元",
+      "link": "//www.autohome.com.cn/guangyuan/cheshi/"
+    },
+    {
+      "cn": "遂宁",
+      "link": "//www.autohome.com.cn/suining/cheshi/"
+    },
+    {
+      "cn": "乐山",
+      "link": "//www.autohome.com.cn/leshan/cheshi/"
+    },
+    {
+      "cn": "南充",
+      "link": "//www.autohome.com.cn/nanchong/cheshi/"
+    },
+    {
+      "cn": "眉山",
+      "link": "//www.autohome.com.cn/meishan/cheshi/"
+    },
+    {
+      "cn": "宜宾",
+      "link": "//www.autohome.com.cn/yibin/cheshi/"
+    },
+    {
+      "cn": "广安",
+      "link": "//www.autohome.com.cn/guangan/cheshi/"
+    },
+    {
+      "cn": "达州",
+      "link": "//www.autohome.com.cn/dazhou/cheshi/"
+    },
+    {
+      "cn": "雅安",
+      "link": "//www.autohome.com.cn/yaan/cheshi/"
+    },
+    {
+      "cn": "巴中",
+      "link": "//www.autohome.com.cn/bazhong/cheshi/"
+    },
+    {
+      "cn": "资阳",
+      "link": "//www.autohome.com.cn/ziyang/cheshi/"
+    },
+    {
+      "cn": "凉山",
+      "link": "//www.autohome.com.cn/liangshan/cheshi/"
+    },
+    {
+      "cn": "攀枝花",
+      "link": "//www.autohome.com.cn/panzhihua/cheshi/"
+    },
+    {
+      "cn": "内江",
+      "link": "//www.autohome.com.cn/neijiang/cheshi/"
+    }
+  ],
+  "西藏": [
+    {
+      "cn": "拉萨",
+      "link": "//www.autohome.com.cn/lasa/cheshi/"
+    },
+    {
+      "cn": "日喀则",
+      "link": "//www.autohome.com.cn/rikaze/cheshi/"
+    }
+  ],
+  "云南": [
+    {
+      "cn": "昆明",
+      "link": "//www.autohome.com.cn/kunming/cheshi/"
+    },
+    {
+      "cn": "文山",
+      "link": "//www.autohome.com.cn/wenshan/cheshi/"
+    },
+    {
+      "cn": "大理",
+      "link": "//www.autohome.com.cn/dali/cheshi/"
+    },
+    {
+      "cn": "曲靖",
+      "link": "//www.autohome.com.cn/qujing/cheshi/"
+    },
+    {
+      "cn": "玉溪",
+      "link": "//www.autohome.com.cn/yuxi/cheshi/"
+    },
+    {
+      "cn": "丽江",
+      "link": "//www.autohome.com.cn/lijiang/cheshi/"
+    },
+    {
+      "cn": "楚雄",
+      "link": "//www.autohome.com.cn/chuxiong/cheshi/"
+    },
+    {
+      "cn": "红河",
+      "link": "//www.autohome.com.cn/honghe/cheshi/"
+    },
+    {
+      "cn": "保山",
+      "link": "//www.autohome.com.cn/baoshan/cheshi/"
+    },
+    {
+      "cn": "昭通",
+      "link": "//www.autohome.com.cn/zhaotong/cheshi/"
+    },
+    {
+      "cn": "普洱",
+      "link": "//www.autohome.com.cn/puer/cheshi/"
+    },
+    {
+      "cn": "临沧",
+      "link": "//www.autohome.com.cn/lincang/cheshi/"
+    },
+    {
+      "cn": "西双版纳",
+      "link": "//www.autohome.com.cn/xishuangbanna/cheshi/"
+    },
+    {
+      "cn": "德宏",
+      "link": "//www.autohome.com.cn/dehong/cheshi/"
+    },
+    {
+      "cn": "迪庆",
+      "link": "//www.autohome.com.cn/diqing/cheshi/"
+    }
+  ],
+  "甘肃": [
+    {
+      "cn": "兰州",
+      "link": "//www.autohome.com.cn/lanzhou/cheshi/"
+    },
+    {
+      "cn": "天水",
+      "link": "//www.autohome.com.cn/tianshui/cheshi/"
+    },
+    {
+      "cn": "张掖",
+      "link": "//www.autohome.com.cn/zhangye/cheshi/"
+    },
+    {
+      "cn": "酒泉",
+      "link": "//www.autohome.com.cn/jiuquan/cheshi/"
+    },
+    {
+      "cn": "嘉峪关",
+      "link": "//www.autohome.com.cn/jiayuguan/cheshi/"
+    },
+    {
+      "cn": "金昌",
+      "link": "//www.autohome.com.cn/jinchang/cheshi/"
+    },
+    {
+      "cn": "白银",
+      "link": "//www.autohome.com.cn/baiyin/cheshi/"
+    },
+    {
+      "cn": "武威",
+      "link": "//www.autohome.com.cn/wuwei/cheshi/"
+    },
+    {
+      "cn": "平凉",
+      "link": "//www.autohome.com.cn/pingliang/cheshi/"
+    },
+    {
+      "cn": "庆阳",
+      "link": "//www.autohome.com.cn/qingyang/cheshi/"
+    },
+    {
+      "cn": "定西",
+      "link": "//www.autohome.com.cn/dingxi/cheshi/"
+    },
+    {
+      "cn": "陇南",
+      "link": "//www.autohome.com.cn/longnan/cheshi/"
+    },
+    {
+      "cn": "临夏",
+      "link": "//www.autohome.com.cn/linxia/cheshi/"
+    }
+  ],
+  "宁夏": [
+    {
+      "cn": "银川",
+      "link": "//www.autohome.com.cn/yinchuan/cheshi/"
+    },
+    {
+      "cn": "石嘴山",
+      "link": "//www.autohome.com.cn/shizuishan/cheshi/"
+    },
+    {
+      "cn": "吴忠",
+      "link": "//www.autohome.com.cn/wuzhong/cheshi/"
+    },
+    {
+      "cn": "固原",
+      "link": "//www.autohome.com.cn/guyuan/cheshi/"
+    },
+    {
+      "cn": "中卫",
+      "link": "//www.autohome.com.cn/zhongwei/cheshi/"
+    }
+  ],
+  "青海": [
+    {
+      "cn": "西宁",
+      "link": "//www.autohome.com.cn/xining/cheshi/"
+    },
+    {
+      "cn": "海东",
+      "link": "//www.autohome.com.cn/haidong/cheshi/"
+    },
+    {
+      "cn": "海西",
+      "link": "//www.autohome.com.cn/haixi/cheshi/"
+    }
+  ],
+  "陕西": [
+    {
+      "cn": "西安",
+      "link": "//www.autohome.com.cn/xian/cheshi/"
+    },
+    {
+      "cn": "宝鸡",
+      "link": "//www.autohome.com.cn/baoji/cheshi/"
+    },
+    {
+      "cn": "咸阳",
+      "link": "//www.autohome.com.cn/xianyang/cheshi/"
+    },
+    {
+      "cn": "渭南",
+      "link": "//www.autohome.com.cn/weinan/cheshi/"
+    },
+    {
+      "cn": "延安",
+      "link": "//www.autohome.com.cn/yanan/cheshi/"
+    },
+    {
+      "cn": "汉中",
+      "link": "//www.autohome.com.cn/hanzhong/cheshi/"
+    },
+    {
+      "cn": "榆林",
+      "link": "//www.autohome.com.cn/yulin/cheshi/"
+    },
+    {
+      "cn": "铜川",
+      "link": "//www.autohome.com.cn/tongchuan/cheshi/"
+    },
+    {
+      "cn": "安康",
+      "link": "//www.autohome.com.cn/ankang/cheshi/"
+    },
+    {
+      "cn": "商洛",
+      "link": "//www.autohome.com.cn/shangluo/cheshi/"
+    }
+  ],
+  "新疆": [
+    {
+      "cn": "乌鲁木齐",
+      "link": "//www.autohome.com.cn/wulumuqi/cheshi/"
+    },
+    {
+      "cn": "昌吉",
+      "link": "//www.autohome.com.cn/changji/cheshi/"
+    },
+    {
+      "cn": "巴音郭楞",
+      "link": "//www.autohome.com.cn/bayinguoleng/cheshi/"
+    },
+    {
+      "cn": "阿克苏",
+      "link": "//www.autohome.com.cn/akesu/cheshi/"
+    },
+    {
+      "cn": "伊犁",
+      "link": "//www.autohome.com.cn/yili/cheshi/"
+    },
+    {
+      "cn": "克拉玛依",
+      "link": "//www.autohome.com.cn/kelamayi/cheshi/"
+    },
+    {
+      "cn": "吐鲁番",
+      "link": "//www.autohome.com.cn/tulufan/cheshi/"
+    },
+    {
+      "cn": "哈密",
+      "link": "//www.autohome.com.cn/hami/cheshi/"
+    },
+    {
+      "cn": "喀什",
+      "link": "//www.autohome.com.cn/kashen/cheshi/"
+    },
+    {
+      "cn": "和田",
+      "link": "//www.autohome.com.cn/hetian/cheshi/"
+    },
+    {
+      "cn": "塔城",
+      "link": "//www.autohome.com.cn/tacheng/cheshi/"
+    },
+    {
+      "cn": "阿勒泰",
+      "link": "//www.autohome.com.cn/aletai/cheshi/"
+    },
+    {
+      "cn": "石河子",
+      "link": "//www.autohome.com.cn/shihezi/cheshi/"
+    },
+    {
+      "cn": "阿拉尔",
+      "link": "//www.autohome.com.cn/alaer/cheshi/"
+    },
+    {
+      "cn": "图木舒克",
+      "link": "//www.autohome.com.cn/tumushuke/cheshi/"
+    },
+    {
+      "cn": "五家渠",
+      "link": "//www.autohome.com.cn/wujiaqu/cheshi/"
+    }
+  ]
+}
