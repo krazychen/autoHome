@@ -41,7 +41,7 @@ async function getCities() {
     await browser.close();
 };
 
-async function getCars() {
+async function getBrands() {
     const browser = await puppeteer.launch();
     const page = await browser.newPage();
     let chars = ['A', 'B', 'C', 'D', 'F', 'G', 'H', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T','V', 'W', 'X', 'Y', 'Z'];
@@ -107,36 +107,43 @@ async function getCars() {
 async function getCars2() {
     const browser = await puppeteer.launch();
     const page = await browser.newPage();
-    await page.goto('https://www.autohome.com.cn/car/', {waitUntil: 'networkidle'});
+    await page.goto('https://www.autohome.com.cn/car/', {waitUntil: 'networkidle2'});
     // await page.screenshot({path: 'example.png',fullPage:true});
 
     // console.log(await page.evaluate(
     //     () => document.querySelector('[data-meto="A"]').innerText)
     // );
 
-    const brands = await page.evaluate(() =>{
-        let chars = ['A', 'B', 'C', 'D', 'F', 'G', 'H', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'W','X', 'X', 'Y', 'Z'];
-        const brands=[];
-        chars.forEach(function (cs) {
-            const unfoldButton = document.querySelector('[data-meto="B"]');
-            brands.push(unfoldButton.innerHTML);
-                    unfoldButton.click();
-            const pageId="#htmlB";
-            const hc=document.querySelector(pageId);
-            if(hc) {
-                const brand = hc.querySelector("dt div a");
-                if(brand) {
-                    brands.push({brand: brand.innerText, link: brand.getAttribute("href")})
-                }
-            }
-            // brands.push(pageId)
-        })
+    // const unfoldButton =await page.$('[data-meto="B"]');
+    // await unfoldButton.click();
+    // await page.waitForSelector('#htmlB');
 
-        return brands;
-    })
+    // const brands = await page.evaluate(() =>{
+    //     let chars = ['A', 'B', 'C', 'D', 'F', 'G', 'H', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'W','X', 'X', 'Y', 'Z'];
+    //     const brands=[];
+    //     chars.forEach(function (cs) {
+    //         const unfoldButton = document.querySelector('[data-meto="B"]');
+    //         brands.push(unfoldButton.innerHTML);
+    //                 unfoldButton.click();
+    //         const pageId="#htmlB";
+    //         const hc=document.querySelector(pageId);
+    //         if(hc) {
+    //             const brand = hc.querySelector("dt div a");
+    //             if(brand) {
+    //                 brands.push({brand: brand.innerText, link: brand.getAttribute("href")})
+    //             }
+    //         }
+    //         // brands.push(pageId)
+    //     })
+    //
+    //     return brands;
+    // })
     await page.$eval('[data-meto="B"]', element => element.click());
+    await page.waitForSelector('#boxB');
     await page.screenshot({path: 'example.png',fullPage:true});
-
+    console.log(await page.evaluate(
+            () => document.querySelector('#boxB').innerHTML)
+        );
     // const brands = await page.evaluate(() =>{
     //     let chars = ['A', 'B', 'C', 'D', 'F', 'G', 'H', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'W','X', 'X', 'Y', 'Z'];
     //     const brands=[];
@@ -158,11 +165,12 @@ async function getCars2() {
     //     return brands;
     // })
 
-    console.log(brands);
+    // console.log(brands);
 
     await browser.close();
 };
 
 // getCities();
 
-getCars();
+// getBrands();
+getCars2();
