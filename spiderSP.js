@@ -4,13 +4,17 @@ const moment = require('moment');
 
 const curDate =moment(new Date(),"YYYYMMDDHHmmss");
 
+let productList;
+let spLists;
+
 async function getProducts() {
     const browser = await puppeteer.launch();
     const page = await browser.newPage();
     await page.goto('https://p4psearch.1688.com/p4p114/p4psearch/offer2.htm?cosite=360jj&keywords=%E4%BF%9D%E5%81%A5%E5%93%81&trackid=8856888022272688587535&location=re&province=&city=&provinceValue=%E6%89%80%E5%9C%A8%E5%9C%B0%E5%8C%BA&sortType=&descendOrder=&priceStart=&priceEnd=&dis=');
 
     await page.waitForSelector('.next-loading-component');
-    const productList = await page.evaluate(( )=> {
+
+    productList = await page.evaluate(( )=> {
         let productLinks=[];
         const productsDiv =document.querySelectorAll('.next-loading .offer_item');
         productsDiv.forEach(function(pdiv){
@@ -18,15 +22,18 @@ async function getProducts() {
             let links = pdiv.querySelector(".img a").getAttribute("href");
             productLinks.push(links);
         });
-
         setTimeout(3000);
         const currentPage =document.querySelector('.next-pagination-list button');
+        let isEnd=0;
         if(currentPage) {
             productLinks.push(currentPage.innerText);
             let nextPage=currentPage.nextElementSibling;
+            //whether have next page
             if(nextPage) {
                 productLinks.push(nextPage.innerText);
             }else{
+                //ending, set is end to 1;
+                isEnd=1;
                 productLinks.push("nextPage");
             }
         }else{
@@ -43,27 +50,72 @@ async function getProducts() {
     writerStream.end();
     await browser.close();
 
+    // spLists=[];
+    // for(let i=0;i<3;i++){
+    //     spLists.push(getSPs(productList[i]));
+    // }
+    // console.log(spLists);
+    // writerStream = fs.createWriteStream('spLists-'+curDate+'.txt');
+    // writerStream.write(JSON.stringify(spLists, undefined, 2), 'UTF8');
+    // writerStream.end();
 
 }
 
-async function getSPs() {
+async function getSPs(index) {
+
     const browser = await puppeteer.launch();
     const page = await browser.newPage();
-    await page.goto('https://dj.1688.com/ci_bb?a=1156440792&e=-iOOpHYNdAgZ2R8BJe8jfN1TdiHdOD2hDELDv07o75JNry5p-UY.MrjqvTsQfqGnjRbHe0mxUEuE-QlhPgFa1i-vw8RcdJYFOY13P0mB-V3nnakEsZAwrfnIFOjlhsBDfesQ8oVzTAgZJWDZsbFTxSIvVBmp.JABpJSiG-WUmzS5bulUguby6iGgsCljxklBUPd8lqMIzwawEeOxgTBu-8giYE-NiouqxO2E9RlaNtxe6zjtrpFC6s6EGMi7iuQv1q4C2LxEijTckbeYXcZ1WXkCB3OCjkxD9VHLE7ac5r4twP.xzViwiMQ0erSrD8Oems5Pn2Di7e1JwxNplB1ZJuQm1WpVJiXvRiy4xvyGGA-bu7rw5uu1e0iM.7nDXQ1MKd-plR3JFcMyhtv6NTqz-sBgifK2qWW55kQ-RzZLEA3SkR-NfKp.wKfaQIaUFhpyMzhIAko7KNDb.21K1mvuBL4x-lVqf2E-f2g5XdxpeHTyJPhPqz8-Q-Z90Sv4hcKRTEvtCCEpmdT8FNMLjcouUJa6pk8EAq1Dz5rnd4EsPzCcnemQJrgNeElvlsVGhcFhmk8n0Rm.f6EFfDgh6RYw--bw.-6GYQGwye.KsfUjLyQscI0z0X2C8VzYbODlwHLgl9ckaGdxd93A2oiwfKLfAa2Aj-eo994n&v=4&ap=1&rp=1');
+    await page.goto(index);
 
-    // await page.waitForSelector('.content-wrap');
-    const spList = await page.evaluate(( )=> {
-        let spList=new Object();
-        let sp=new Object();
-        let spDiv =document.querySelector('.mod-contactSmall');
-        let name=spDiv.querySelector(".membername").innerText;
-        let title=spDiv.querySelector(".membername").innerText;
-        sp["name"]=name;
-        spList[sp["name"]]=sp;
+    // await page.waitFor(6000);
+    // await page.waitForSelector('div .mod-contactSmall', { timeout: 100000, visible: true });
+    try{
+        const spList = await page.evaluate(( )=> {
+            let spList=new Object();
+            let sp=new Object();
+            let spDiv =document.querySelector('#site_content .mod-contactSmall');
+            let nameDiv=spDiv.querySelector(".membername");
+            let name;
+            if(nameDiv){
+                name=nameDiv.innerText;
+            }
+
+            let teleDiv=nameDiv.parentNode.nextElementSibling;
+            let tele;
+            if(teleDiv){
+                if(teleDiv.querySelector("dd"))  tele=teleDiv.querySelector("dd").innerText;
+            }
+
+            let phoneDiv=spDiv.querySelector(".m-mobilephone");
+            let phoneDivDd=phoneDiv.querySelector("dd");
+            let phone;
+            if(phoneDivDd){
+                phone=phoneDivDd.innerText;
+            }
+
+            let faxDiv=phoneDiv.nextElementSibling;
+            let fax;
+            if(faxDiv){
+                if(faxDiv.querySelector("dd"))    fax=faxDiv.querySelector("dd").innerText;
+            }
+
+            sp["name"]=name;
+            sp["tele"]=tele;
+            sp["phone"]=phone
+            sp["fax"]=fax;
+            let dataView= JSON.parse(spDiv.getAttribute("data-view-config"));
+            sp["company"]=dataView.companyName;
+            sp["address"]=dataView.address;
+            spList[sp["phone"]]=sp;
+            return spList;
+        });
+
         return spList;
-    });
+        console.log(spList);
+    }catch(e){
+        console.log(e);
+    }
 
-    console.log(spList);
     // let writerStream = fs.createWriteStream('spList-'+curDate+'.txt');
     // writerStream.write(JSON.stringify(spList, undefined, 2), 'UTF8');
     // writerStream.end();
@@ -72,5 +124,5 @@ async function getSPs() {
 
 }
 
-// getProducts();
-getSPs();
+getProducts();
+// getSPs("https://dj.1688.com/ci_bb?a=2004000869&e=MRrS4nBmwy7bK9PN7bbqDCK13sgXILWW8YnxVi7mVjCwKEHkNmvLVO2OCijk72T8wCcBssQTpt7AEFoxEOKKf0kmEeFvaj-eLfKnp1GFDxcPHcJGU3q9O9N-0MlRF58FahkfjKENNWwVXwOLilNlV-aWRi0eQKYOJCARaNkKQYveuvPhGrEsYHsB-XTovd5ex03jE8.HEM7SqGb.xd2xe-OkEc8Rzh60dXyKs0scpqSB-VmuN27UYg8gU6Drr-ZbNGq5vHY6xPASAxG6leuuovltMGo1-ZGvtBBqQKeuNN5x37cZTwHLJSLxtxhqfLLkcgEEkfVUM6htJf1w5lOe.ieOair6XedsAxuFZgCWWxfbJmrP.hfijbI6MOwpZrakLg-iKpw2JLqLa6Z426nr79dDr7HXIt8vaz9g2v1sQv-OCiQwXTRMbf4s4nec4mK0wDkExP.aW3NL6nZtAfrqwpu2k9a8lVgJWc4gnppTSmEXDgKiSwGsVdJSdnVvOB6IOwE5LQsWF3vuZu1lG2-Y0eptRXo7fj0bZ.NfS6jaDUDQNG33CYNCJy0tu5ty0fk-dyrjxoEYFk29orR-UySYehKj2kf9WyAeyAwfJVUnMj8frVG4a3psppHVsMCMVpOydmijhWAB8ckIwMp7hXw9kA__&v=4&ap=2&rp=2");
