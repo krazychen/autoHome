@@ -3,6 +3,7 @@ const fs = require('fs');
 const util = require('util')
 const moment = require('moment');
 const json2csv = require('json2csv');
+const iconv = require('iconv-lite');
 
 const curDate =moment(new Date(),"YYYYMMDDHHmmss");
 const fs_writeFile = util.promisify(fs.writeFile);
@@ -17,11 +18,11 @@ async function getProducts() {
     try {
         const page = await browser.newPage();
         //china
-        await page.goto('https://p4psearch.1688.com/p4p114/p4psearch/offer2.htm?cosite=360jj&keywords=%E4%BF%9D%E5%81%A5%E5%93%81&trackid=8856888022272688587535&location=re&province=&city=&provinceValue=%E6%89%80%E5%9C%A8%E5%9C%B0%E5%8C%BA&sortType=&descendOrder=&priceStart=&priceEnd=&dis=');
+        // await page.goto('https://p4psearch.1688.com/p4p114/p4psearch/offer2.htm?cosite=360jj&keywords=%E4%BF%9D%E5%81%A5%E5%93%81&trackid=8856888022272688587535&location=re&province=&city=&provinceValue=%E6%89%80%E5%9C%A8%E5%9C%B0%E5%8C%BA&sortType=&descendOrder=&priceStart=&priceEnd=&dis=');
         //fujian
         //await page.goto('https://p4psearch.1688.com/p4p114/p4psearch/offer2.htm?cosite=360jj&keywords=%E4%BF%9D%E5%81%A5%E5%93%81&trackid=8856888022272688587535&location=re&province=&city=&provinceValue=%E7%A6%8F%E5%BB%BA&sortType=&descendOrder=&priceStart=&priceEnd=&dis=%27');
         //xiamen
-        //await page.goto('https://p4psearch.1688.com/p4p114/p4psearch/offer2.htm?cosite=360jj&keywords=%E4%BF%9D%E5%81%A5%E5%93%81&trackid=8856888022272688587535&location=re&province=%E7%A6%8F%E5%BB%BA&city=%E5%8E%A6%E9%97%A8&provinceValue=%E5%8E%A6%E9%97%A8&sortType=&descendOrder=&priceStart=&priceEnd=&dis=%27');
+        await page.goto('https://p4psearch.1688.com/p4p114/p4psearch/offer2.htm?cosite=360jj&keywords=%E4%BF%9D%E5%81%A5%E5%93%81&trackid=8856888022272688587535&location=re&province=%E7%A6%8F%E5%BB%BA&city=%E5%8E%A6%E9%97%A8&provinceValue=%E5%8E%A6%E9%97%A8&sortType=&descendOrder=&priceStart=&priceEnd=&dis=%27');
 
         await page.waitForSelector('.next-loading-component');
 
@@ -57,8 +58,9 @@ async function getProducts() {
         await console.log(spLists);
         const spFields = ['name','tele','phone','fax','company','address'];
         const spCsv = await json2csv.parse(spLists, { fields: spFields});
-        await console.log(spCsv);
-        await fs_writeFile('spFile-'+curDate+'.csv', spCsv)
+        const newCsv = iconv.encode(spCsv, 'GBK'); // 转编码
+        await console.log(newCsv);
+        await fs_writeFile('spFile-'+curDate+'.csv', newCsv)
             .catch((error) => {
                 console.log(error)
             });
@@ -255,7 +257,8 @@ async function getSPs(index) {
         const spFields = ['name','tele','phone','fax','company','address'];
         const spCsv = await json2csv.parse(spLists, { fields: spFields});
         // await console.log(spCsv);
-        await fs_writeFile('spFile-'+curDate+'.csv', spCsv)
+        const newCsv = iconv.encode(spCsv, 'GBK'); // 转编码
+        await fs_writeFile('spFile-'+curDate+'.csv', newCsv)
             .catch((error) => {
                 console.log(error)
             });
@@ -274,5 +277,5 @@ async function getSPs(index) {
 
 }
 
-// getProducts();
-getSPs("https://dj.1688.com/ci_bb?a=282324907&e=bXr3J13ombDbJh1XfjDyDQFF2yxP1boBh5CIXbq9YT2c8GcaPy-9JnTiA4FO8mnbGJN-fd.xeOHJiRcoQLkAYPTNbKJ4zC73CFIAf7DoiJZakLbEG8DwZYNA42.97W2t9u7Gz07jruWYeTtrioq9-0.viMonhcuuMOo9Q-0KIuPsYerPJJVJ.74dODWPMcA9iZzg8TrynUfv7UQKHlvbGiBgTkxjc6f6P.34lVOLFeZI47E3-jmO43qaSUOq314RVFAylNtGQ1nfj4luE5r-3ViCzgayBqC517P5OBDj4i5wUKgLd3T.MtK-3EfiBHvH5r67ImQPffXPD8ZS5HPyNHdsaUdBGuvwnFUmplH-zEgwWtiY3Bw6YM3H1-n2O1L5LYsQNMwhmo4VoyugT9ZVcnqTVyYxW2Vd63VgREbhT.2Sr.FcWqPKLNP.OxwpUlLlVvI07c0HgPu9QtK7JdZQWRljue0XWRg.EJ33VEGIe3inix-BSUD0PYr.aTJv0Uu5pTZyAYBu8C6JEcbQuovqMn2T8RqJJ0QWnfQft2gNnVsG8-FBa4GYxpIaECvRwUBtcbPYcrBJC6gLi8XriVXiBg__&v=4&ap=176&rp=16");
+getProducts();
+// getSPs("https://dj.1688.com/ci_bb?a=282324907&e=vWw.7wJi0K.bJh1XfjDyDQFF2yxP1boBh5CIXbq9YT2c8GcaPy-9JnTiA4FO8mnbGJN-fd.xeOHUIn5Limvc3E5CyKgpm-eIFacnNf8WGPzwu0pivQzzW6rz8SzNq96a0FXA8o5cvVa32e6hSQNQAS0rdhPoyE0WS5ZGczl8UzcxELJpGRlDeQHBGs7JFE6bUziCw0vjoERfHc.I73BIciTSxk7Ikyg5XaCNDg5IOSgxuWxp4puAcSRp7cmQdobTU1JjSD66xwj14dAv3oyFCTRzVnpItWwLHm6EKevZCBH0I-ePm9jwFcfoIHvZjRSowI9JAT8tz6GS8.zRoemmyl.qtGUVc6hrcTaQ5tPpkncf9scmFSiWVG4u4mZL5IevGw-TFCOw6Bmlopp5p0IM7HmjR4.nHM0.Rec8iDwNEbgtUMQXN-ykpT1VsAtvN0j3cu2JUoZKaz226MI4W0qjbA9TKlioU6rG6.0a0bM6iLLmkau40J.IwkwhvjQeHuiYpNqn-qwGByMqMs.41zM4EZTXrjOnQ775ilPn-o6EhEb9EWdl7cZ9aOIkb.7MrYmlXXkYsvX0Q7IfUESarL.SVUAi72WqPZoO&v=4&ap=180&rp=20");
